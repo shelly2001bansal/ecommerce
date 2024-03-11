@@ -1,0 +1,247 @@
+
+
+.spinner {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    border: 9px solid;
+    border-color: #dbdcef;
+    border-right-color: green;
+    animation: spinner-d3wgkg 1s infinite linear;
+    
+ }
+ .spin{
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+ }
+ @keyframes spinner-d3wgkg {
+    to {
+       transform: rotate(1turn);
+    }
+ }
+
+.nav-container{
+   height: 100px;
+   width: 100%;
+   background-color: green;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   align-items: center;
+   position: fixed;
+   top:0;
+}
+.nav-icon{
+   font-size: xx-large;
+   
+   color: white;
+}
+.nav-bar{
+   text-decoration: none;
+}
+.nav-cart{
+   display: flex;
+   flex-direction: row;
+   
+   justify-content: space-around;
+   align-items: center;
+   gap: 50px;
+}
+.home{
+   color: white;
+   font-size: x-large;
+}
+.cart{
+   color: white;
+   height: 100px;
+   font-size: x-large;
+}
+.no-item{
+   text-align: center;
+   margin-top: 7rem;
+}
+.now{
+   border-radius: 2rem;
+   height: 50px;
+   width: 150px;
+   background-color: rgb(26, 170, 26);
+   color: white;
+   border: none;
+}
+.card{
+   margin-top: 100px;
+   height: 350px;
+   width: 250px;
+   border: 1px solid transparent;
+   display: flex;
+   flex-direction:row;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   box-shadow: 0px 4px 16px rgba(17,17,26,0.1), 0px 8px 24px rgba(17,17,26,0.1), 0px 16px 56px rgba(17,17,26,0.1);
+   border-radius: 20px;
+}
+.card:hover{
+   transform: scale(1.1);
+   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+   transition-duration: 300ms;
+   transition-timing-function: ease-in;
+}
+
+.post-image{
+   height: 150px;
+   width: 100px;
+   
+}
+.product{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+   margin: auto;
+   overflow-x: hidden;
+   /* width: 1200px; */
+   gap: 30px;
+   margin-top: 10px;
+}
+.des{
+   line-height: 16px;
+}
+.des-1{
+   margin-top: 0px;
+   color: gray;
+}
+.price{
+   display: flex;
+  
+   
+   gap:80px;
+   
+}
+.post-price{
+   color: green;
+   font-weight: bold;
+}
+.btn{
+   height: 30px;
+   width: 100px;
+   border-radius: 2rem;
+   margin-top: 10px;
+}
+.logo{
+   position: absolute;
+   top: 35px;
+   left: 1100px;
+   height: 20px;
+   width: 15px;
+   text-align: center;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   animation: bounce 1s infinite;
+   background-color: black;
+   color: white;
+   font-size: x-small;
+   border-radius: 50%;
+}
+
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(-25%);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  50% {
+    transform: translateY(0);
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+}
+.content{
+   display: flex;
+   flex-direction: column;
+   
+}
+.main{
+   display: flex;
+   justify-content: flex-start;
+
+   flex-direction: row;
+   height: 250px;
+   width: 380px;
+   border: 1px solid transparent;
+   margin-top: 70px;
+   margin-left: 300px;
+   gap: 30px;
+}
+.cart-image{
+   height: 150px;
+   width: 100px;
+   margin-top: 20px;
+}
+.item{
+   font-weight: bold;
+}
+.btn-1{
+   margin-left: 70px;
+   margin-top: 10px;
+   font-size: x-large;
+   height: 30px;
+   width: 30px;
+   border-radius: 50%;
+   background-color: rgb(251, 61, 61);
+   color: white;
+}
+.line{
+   height: 1px;
+   width: 450px;
+   background-color: black;
+   margin-left: 240px;
+   margin-top: -40px;
+}
+.summary{
+   height: auto;
+   width: 500px;
+   border: 1px solid transparent;
+   margin-top: 80px;
+}
+.check{
+   display: flex;
+   gap: 60px;
+   margin-top: 50px;
+}
+.your{
+   color: green;
+   font-size: x-large;
+   line-height: 0px;
+}
+.describe{
+   line-height: 0px;
+
+   color: green;
+   font-weight: bolder;
+   font-size: xx-large;
+}
+.total{
+   font-weight: bold;
+}
+.amount{
+  
+   font-weight: bolder;
+}
+.out{
+   margin-top: 300px;
+}
+.btn-2{
+   height: 40px;
+   text-align: center;
+   width: 300px;
+   color: white;
+   background-color: green;
+   font-weight: bold;
+   border: none;
+   border-radius: 10px;
+}
